@@ -20,12 +20,8 @@ print("Yillik Faiz tutariniz:",yillik_faiz_tutari,"\n",
       "Gunluk Faiz Tutariniz:",gunluk_faiz_tutari,"\n",
       "Yillik Toplam Para Miktariniz:",yillik_para_miktari,sep="")
 dosya=open("faizHesaplama.txt","w")
-print("ana_para: ",a,
-"\n faiz_suresi: ",b,
-"\n yillik_faiz_orani: ",c,
-"\n yillik_faiz_tutari: ",yillik_faiz_tutari,
-"\n aylik_faiz_tutari: ",aylik_faiz_tutari,
-"\n gunluk_faiz_tutari: ",gunluk_faiz_tutari,
-"\n yillik_para_miktari: ",yillik_para_miktari'
-,file=dosya)
+print("\n","yillik_faiz_tutari: ",yillik_faiz_tutari,
+"\n","aylik_faiz_tutari: ",aylik_faiz_tutari,
+"\n","gunluk_faiz_tutari: ",gunluk_faiz_tutari,
+"\n","yillik_para_miktari: ",yillik_para_miktari,file=dosya)
 dosya.close()
