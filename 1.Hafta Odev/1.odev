@@ -1,0 +1,6 @@
+isim=input("Isminiz Nedir?:")
+sekil=("""
+\t* * * * * * * * * * * * * *
+\t/~\/~\/~\/~\/~\/~\/~\/~\/~\
+""")
+print(sekil,"\n"*3,"\t"*2," "*2,isim,"\n","\t"*2," "*2,"_"*len(isim),"\n"*3,sekil,sep="")
