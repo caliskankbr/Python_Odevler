@@ -1,0 +1,23 @@
+ana_para=input("Ana Para: ")
+a=int(ana_para)
+faiz_suresi=input("Faiz Suresi(yil): ")
+b=int(faiz_suresi)
+yillik_faiz_orani=input("Yillik Faiz Orani: ")
+c=float(yillik_faiz_orani)
+#Yillik Faiz Hesaplama Formulu:
+#Ana para*faiz suresi*faiz orani/100
+yillik_faiz_tutari=a*b*c/100
+#Aylik Faiz Tutari Hesaplama:
+#Ana para*faiz suresi*faiz orani/1200                  
+aylik_faiz_tutari=a*b*c/1200
+#Gunluk Faiz Hesaplama:
+#Ana para*faiz suresi*faiz orani/36000
+gunluk_faiz_tutari=a*b*c/36000
+#Yillik para miktari=yillik faiz+ana para
+yillik_para_miktari=yillik_faiz_tutari+a
+print("Yillik Faiz tutariniz:",yillik_faiz_tutari,"\n",
+      "Aylik Faiz Tutariniz:",aylik_faiz_tutari,"\n",
+      "Gunluk Faiz Tutariniz:",gunluk_faiz_tutari,"\n",
+      "Yillik Toplam Para Miktariniz:",yillik_para_miktari,sep="")
+
+                  
