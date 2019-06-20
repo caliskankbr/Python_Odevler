@@ -1,0 +1,15 @@
+aylik_gelir=input("Aylik Geliriniz: ")
+a=int(aylik_gelir)
+mutfak_masrafi=input("Aylik Mutfak Masrafiniz: ")
+b=int(mutfak_masrafi)
+egitim_masrafi=input("Aylik Egitim Masrafiniz: ")
+c=int(egitim_masrafi)
+giyim_masrafi=input("Aylik Giyim masrafiniz: ")
+d=int(giyim_masrafi)
+ulasim_masrafi=input("Aylik Ulasim Masrafiniz: ")
+e=int(ulasim_masrafi)
+aylik_toplam_masraf=b+c+d+e
+oran=aylik_toplam_masraf/a
+print("Aylik Toplam masrafiniz:",aylik_toplam_masraf,"\n"
+      "Aylik Toplam Masrafinizin Aylik Gelirinize Orani:",oran,sep="")
+
