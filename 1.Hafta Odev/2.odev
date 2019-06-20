@@ -1,0 +1,5 @@
+hesaplama=input("Mesafeniz kac km?:")
+mil=1.6
+km=int(hesaplama)
+sonuc=mil*km
+print("Mesafenizin mil cinsinden karsiligi:",sonuc,"mildir.")
