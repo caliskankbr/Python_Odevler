@@ -1,0 +1,12 @@
+ad_soyad=input("Adiniz-Soyadiniz: ")
+print("Sinav puani 0-100 araliginda olmalidir")
+kacirilan_ders_sayisi=input("Kacirilan ders sayisi: ")
+a=int(kacirilan_ders_sayisi)
+#b=ders takip puani
+b=100-(a*5)
+vize_puani=input("Vize puani: ")
+c=int(vize_puani)
+final_puani=input("Final puani: ")
+d=int(final_puani)
+genel_not_ortalamasi=(0.30*c)+(0.50*d)+(0.20*b)
+print("Sevgili",ad_soyad,";","\n","Genel not ortalamaniz: ",genel_not_ortalamasi)
