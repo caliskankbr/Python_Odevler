@@ -12,4 +12,7 @@ aylik_toplam_masraf=b+c+d+e
 oran=aylik_toplam_masraf/a
 print("Aylik Toplam masrafiniz:",aylik_toplam_masraf,"\n"
       "Aylik Toplam Masrafinizin Aylik Gelirinize Orani:",oran,sep="")
-
+dosya=open("aylikmasraf.txt","w")
+print("Aylik Toplam masrafiniz: ",aylik_toplam_masraf,"\n"
+      "Aylik Toplam Masrafinizin Aylik Gelirinize Orani: ",oran,file=dosya)
+dosya.close()
