@@ -11,5 +11,9 @@ d=int(final_puani)
 genel_not_ortalamasi=(0.30*c)+(0.50*d)+(0.20*b)
 print("Sevgili",ad_soyad,";","\n","Genel not ortalamaniz: ",genel_not_ortalamasi)
 dosya=open("ogrenciNotOrtalamasi.txt","w")
-print(ad_soyad,b,c,d,genel_not_ortalamasi,file=dosya)
+print("ad_soyad",
+"\n",b,
+"\n",c,
+"\n",d,
+"\n","genel_not_ortalamasi",file=dosya)
 dosya.close()
